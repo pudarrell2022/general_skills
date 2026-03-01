@@ -1,0 +1,4 @@
+interface:
+  display_name: "Init Skill"
+  short_description: "Generate a strict skill scaffold with validated naming and YAML structure"
+  default_prompt: "使用 $init-skill 帮我按命名、YAML 与目录规范初始化一个新 Skill。"

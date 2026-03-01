@@ -1,0 +1,4 @@
+interface:
+  display_name: "Save Memory"
+  short_description: "Extract reusable project knowledge from chat and maintain AGENTS.md"
+  default_prompt: "使用 $save-memory 从当前对话中提取可重用的项目知识，并更新 AGENTS.md 中的中文内容。"

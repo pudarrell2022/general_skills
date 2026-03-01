@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auto Commit"
+  short_description: "Check repository changes, generate commit message, and complete a git commit"
+  default_prompt: "使用 $auto-commit 帮我检查当前仓库改动并完成一次规范的中文提交。"
