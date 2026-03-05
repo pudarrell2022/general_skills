@@ -1,4 +1,4 @@
 interface:
   display_name: "Update Agent"
   short_description: "Update or create project AGENTS.md project documentation maintenance assistant"
-  default_prompt: "扫描当前仓库并更新 AGENTS.md，若不存在则创建，包含项目目标、结构、环境与风格约定。"
+  default_prompt: "扫描当前仓库并更新 AGENTS.md，若不存在则创建；若原文档含过时或与当前项目不符内容，可删除或替换；最终包含项目目标、结构、环境与风格约定。"
