@@ -1,4 +1,4 @@
 interface:
   display_name: "Auto Push"
-  short_description: "Run auto-commit first, then push current branch to remote"
-  default_prompt: "使用 $auto-push 先帮我按规范完成提交，再执行 git push。"
+  short_description: "Run auto-commit first, then only handle remote check and git push"
+  default_prompt: "使用 $auto-push 先执行一次 $auto-commit，再检查是否有远程仓库；如果有，就继续执行 git push。"
