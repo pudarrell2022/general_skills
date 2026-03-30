@@ -1,0 +1,4 @@
+interface:
+  display_name: "Playwright CLI"
+  short_description: "Browser automation via Playwright CLI"
+  default_prompt: "使用 playwright-cli 执行浏览器自动化任务，包括页面导航、表单填写、点击交互、截图采集与网页信息提取；优先使用快照中的元素引用进行稳定操作，并在结束后关闭浏览器会话。"

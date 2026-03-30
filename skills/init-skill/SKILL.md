@@ -38,9 +38,9 @@ description: 按统一规范生成新的 Skill 目录与模板文件。用于用
 - 文件的格式参考
     ```yaml
     interface:
-    display_name: <display_name>
-    short_description: <short_description>
-    default_prompt: <default_prompt>
+      display_name: <display_name>
+      short_description: <short_description>
+      default_prompt: <default_prompt>
     ```
 - `display_name` 使用英文首字母大写写法（例如 `Init Skill`）。
 - `short_description` 使用简短英文。
